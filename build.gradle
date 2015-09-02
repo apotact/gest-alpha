@@ -1,0 +1,15 @@
+group 'com'
+version 'gest-alpha1'
+
+apply plugin: 'java'
+
+version = '1.0.0' // Project version
+
+dependencies {
+    testCompile 'junit:junit:4.+'
+    compile fileTree(dir: 'src/main/resources', include: '*.jar')
+}
+
+repositories {
+    mavenCentral()
+}
